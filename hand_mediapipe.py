@@ -38,10 +38,10 @@ while True:
             thumb_tip = hand_landmarks.landmark[4]
             tx, ty = int(thumb_tip.x * w), int(thumb_tip.y * h)
 
-            # 🔴 Red dot on thumb
+            # Red dot on thumb
             cv2.circle(frame, (tx, ty), 8, (0, 0, 255), cv2.FILLED)
 
-            # 🟢 Green dot on index finger
+            # Green dot on index finger
             cv2.circle(frame, (ix, iy), 8, (0, 255, 0), cv2.FILLED)
 
             # Mouse movement (index finger)
