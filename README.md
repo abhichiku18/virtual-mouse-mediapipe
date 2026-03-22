@@ -6,9 +6,8 @@
 
 ## 🎥 Demo Video
 
-[![Watch Demo](https://img.shields.io/badge/Watch-Demo_Video-red?style=for-the-badge&logo=youtube)](ADD_YOUR_VIDEO_LINK_HERE)
+[![Watch Demo](https://drive.google.com/file/d/1wfjh6QM8pl_7BWgae8n5T6_7g5mxyX2t/view?usp=sharing)](ADD_YOUR_VIDEO_LINK_HERE)
 
-> 📌 Replace `ADD_YOUR_VIDEO_LINK_HERE` with your YouTube / Google Drive link.
 
 ---
 
@@ -114,7 +113,7 @@ Virtual-Mouse/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Virtual-Mouse.git
+git clone https://github.com/abhichiku18/Virtual-Mouse.git
 cd Virtual-Mouse
 ```
 
