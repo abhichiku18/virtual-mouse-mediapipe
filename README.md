@@ -1,13 +1,23 @@
+<div align="center">
+
 # 🖱️ AI Virtual Mouse — Hand Gesture Control System
 
-> **Control your computer mouse using just your hand gestures — no physical mouse required. Built with Computer Vision and MediaPipe.**
+### Control Your Computer With Just Your Hand — No Mouse Needed
 
----
+**Computer Vision · MediaPipe · OpenCV · PyAutoGUI**
 
-## 🎥 Demo Video
+<br/>
 
-[![Watch Demo](https://drive.google.com/file/d/1wfjh6QM8pl_7BWgae8n5T6_7g5mxyX2t/view?usp=sharing)](ADD_YOUR_VIDEO_LINK_HERE)
+[![Demo Video](https://img.shields.io/badge/🎥_Watch-Demo_Video-red?style=for-the-badge)](https://drive.google.com/file/d/1wfjh6QM8pl_7BWgae8n5T6_7g5mxyX2t/view?usp=sharing)
+[![Python](https://img.shields.io/badge/Python-3.7+-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![OpenCV](https://img.shields.io/badge/OpenCV-Camera-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
+<br/>
+
+> *"Your hand is the mouse — no hardware required."*
+
+</div>
 
 ---
 
@@ -22,6 +32,15 @@ No hardware needed beyond a standard webcam.
 
 ---
 
+## 🎮 Gesture Controls
+
+| Gesture | Action |
+|---------|--------|
+| ☝️ Move index finger | Moves mouse cursor |
+| 🤏 Pinch (index + thumb < 40px apart) | Left mouse click |
+
+---
+
 ## ✨ Features
 
 - 🎯 Real-time hand landmark detection (21 keypoints)
@@ -31,15 +50,6 @@ No hardware needed beyond a standard webcam.
 - 🪞 Mirrored camera view for natural interaction
 - ⚡ Low-latency per-frame processing
 - 🔴🟢 Visual dot markers on thumb and index finger
-
----
-
-## 🎮 Gesture Controls
-
-| Gesture | Action |
-|---------|--------|
-| ☝️ Move index finger | Moves mouse cursor |
-| 🤏 Pinch (index + thumb < 40px apart) | Left mouse click |
 
 ---
 
@@ -102,7 +112,8 @@ Thumb Tip         →  Landmark ID = 4   (Red dot 🔴)
 ```
 Virtual-Mouse/
 │
-├── virtual_mouse.py      # Main source code
+├── hand_mediapipe.py      # Main source code
+├── requirements.txt      # Dependencies
 └── README.md             # Documentation
 ```
 
@@ -123,6 +134,12 @@ cd Virtual-Mouse
 pip install opencv-python mediapipe pyautogui
 ```
 
+Or via requirements file:
+
+```bash
+pip install -r requirements.txt
+```
+
 ### 3️⃣ Run the Project
 
 ```bash
@@ -135,7 +152,7 @@ Press **`Q`** to quit the application.
 
 ---
 
-## 📦 requirements
+## 📦 requirements.txt
 
 ```
 opencv-python
@@ -201,6 +218,10 @@ pyautogui
 
 ---
 
-## ⭐ Support
+<div align="center">
 
-If you found this project cool, give it a **⭐ star** on GitHub!
+### ⭐ If you found this project cool, give it a star on GitHub!
+
+*Built with computer vision — because why use a mouse when you have hands?*
+
+</div>
