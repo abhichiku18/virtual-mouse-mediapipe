@@ -110,7 +110,7 @@ Thumb Tip         →  Landmark ID = 4   (Red dot 🔴)
 ## 📁 Project Structure
 
 ```
-Virtual-Mouse/
+Virtual-Mouse-mediapipe/
 │
 ├── hand_mediapipe.py      # Main source code
 ├── requirements.txt      # Dependencies
@@ -124,7 +124,7 @@ Virtual-Mouse/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/abhichiku18/Virtual-Mouse.git
+git clone https://github.com/abhichiku18/virtual-mouse-mediapipe.git
 cd Virtual-Mouse
 ```
 
